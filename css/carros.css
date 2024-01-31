@@ -1,0 +1,86 @@
+ 
+ /* Estilos para o formulário */
+ 
+ 
+ 
+  #carroForm {
+    background-color: #000000;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para os campos de entrada */
+input[type="text"],
+input[type="number"] {
+    background-color:#1a3e14;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para o botão de adicionar */
+button[type="submit"] {
+    background-color:#455f3d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+/* Estilos para a lista de carros */
+
+#listaCarros {
+    list-style-type:none;
+    padding: 0;
+}
+
+/* Estilos para cada item da lista de carros */
+#listaCarros li {
+
+    
+    background-color: #1a3e14;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* Estilos para os títulos dos carros */
+#listaCarros li h2 {
+    margin-top: 0;
+}
+
+/* Estilos para as imagens dos carros */
+#listaCarros li img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para as informações dos carros */
+#listaCarros li ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para cada informação do carro */
+#listaCarros li ul li {
+    margin-bottom: 5px;
+}
+
+
+.carro-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.carro-item img {
+    width: 100px;
+    height: 100px;
+}
